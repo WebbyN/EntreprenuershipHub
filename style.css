@@ -1,0 +1,79 @@
+.hero{
+    width: 98.7vw;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+   
+    
+    font-weight: bolder;
+    animation: animate 12s ease-in-out infinite;
+}
+
+
+
+@keyframes animate {
+    0%, 100% {
+        background-image: url(images/back1.jpg);
+    }
+    25% {
+        background-image: url(images/back4.jpg);
+    }
+    50% {
+        background-image: url(images/back2.jpg);
+    }
+    75% {
+        background-image: url(images/back0.png);
+    }
+}
+
+.cardz{
+    width: fit-content;
+}
+
+
+
+
+.hero-two{
+    font-size: larger;
+}
+
+.hero-two img{
+   height: 140px;
+   width: 280px;
+}
+
+.contact-form{
+    width: 100%;
+    display: table;
+    justify-items: space-around;
+    padding: 3px;
+}
+
+.contact-form form{
+    display: block;
+    justify-items: center;
+    align-self: center;
+    margin: auto;
+    margin-left: 33%;
+}
+
+ul{
+    margin-left: 15px;
+}
+.list li{
+    list-style-type: disc;
+}
+
+
+footer{
+    margin-top: auto;
+    bottom: 0;
+}
+
+body{
+    background-image: url(images/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
